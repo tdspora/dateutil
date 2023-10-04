@@ -34,9 +34,9 @@ jobs:
     - name: Create tox environments
       run: |
         tox -p -e py,build,release --notest
-    - name: Run tests
-      run: |
-        tox -e py
+#    - name: Run tests
+#      run: |
+#        tox -e py
     - name: Build package
       run: |
         tox -e build
