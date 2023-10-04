@@ -1,3 +1,12 @@
+Version 2.8.2rc (2023-10-04)
+==========================
+
+Features
+--------
+
+- Update _parser.py;
+  Make `_parser()` return date format string
+
 Version 2.8.2 (2021-07-08)
 ==========================
 
